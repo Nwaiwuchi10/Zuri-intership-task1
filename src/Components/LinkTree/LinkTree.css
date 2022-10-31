@@ -1,0 +1,187 @@
+.main-div-linkTree {
+  width: 100%;
+  height: auto;
+  background-color: #f4f5f7;
+}
+.mg-lnk {
+  padding-top: 5px;
+  padding-bottom: 30px;
+}
+.min-div-linktree {
+  background-color: #ffffff;
+  width: 95%;
+  margin-top: 50px;
+  height: auto;
+
+  border: 1px solid #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.float-icon {
+  position: absolute;
+  right: 400px;
+  top: 100px;
+}
+.float-icon2 {
+  float: right;
+  display: none;
+
+  /* margin-top: 20px; */
+}
+.absolute-p {
+  position: absolute;
+  right: 170px;
+}
+.profile-pic {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.username {
+  font-weight: 700;
+}
+.mg-linkz {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.linkz-div {
+  text-align: center;
+  border: 1px solid #eaecf0;
+  border-radius: 8px;
+  background-color: #eaecf0;
+  font-family: "Inter";
+  width: 70%;
+  height: 8vh;
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  margin-bottom: 20px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+}
+.slack-img {
+  width: 15px;
+  height: 15px;
+}
+.footer-linktree {
+  margin-top: 70px;
+}
+.hr-div {
+  width: 77%;
+  height: 1px;
+  color: grey;
+  background-color: gainsboro;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+.display-int {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+strong {
+  color: #e7332b;
+  font-size: larger;
+}
+.hng {
+  color: #667085;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: small;
+}
+.ip-img {
+  width: auto;
+  height: 4vh;
+}
+@media (max-width: 980px) {
+  .float-icon {
+    position: absolute;
+    right: 90px;
+    top: 100px;
+  }
+}
+
+@media (max-width: 700px) {
+  .linkz-div {
+    text-align: center;
+    border: 1px solid #eaecf0;
+    border-radius: 8px;
+    background-color: #eaecf0;
+    font-family: "Inter";
+    width: 90%;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+  }
+  .display-int {
+    display: block;
+    align-items: flex-starts;
+    text-align: left;
+    margin-left: 30px;
+    margin-bottom: 20px;
+  }
+  .display-int div {
+    margin-bottom: 15px;
+  }
+  .hr-div {
+    width: 90%;
+    height: 1px;
+    color: grey;
+    background-color: gainsboro;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+  .float-icon {
+    position: absolute;
+    right: 100px;
+    top: 100px;
+  }
+}
+@media (max-width: 480px) {
+  .linkz-div {
+    text-align: center;
+    border: 1px solid #eaecf0;
+    border-radius: 8px;
+    background-color: #eaecf0;
+    font-family: "Inter";
+    width: 90%;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+  }
+  .mg-lnk {
+    padding-top: 1px;
+    padding-bottom: 30px;
+  }
+  .float-icon {
+    float: right;
+    display: none;
+  }
+  .float-icon2 {
+    display: flex;
+    position: absolute;
+    right: 40px;
+    top: 60px;
+  }
+}
